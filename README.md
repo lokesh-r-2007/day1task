@@ -1,6 +1,6 @@
 # Day 1 Task: Foundations of AI Agents — Agent = LLM + Tools + Loop
 
-![Comparative Summary Output](https://raw.githubusercontent.com/lokesh-r-2007/day1task/main/Output/04_comparative_summary.png)
+![Comparative Summary Output](./Output/04_comparative_summary.png)
 
 ## Overview
 This repository presents a conceptual analysis and runnable implementation comparing three software paradigms on a private-data scenario: **TechGear E-Commerce Support & Order Management System**.
@@ -81,7 +81,7 @@ python generate_screenshots.py
 
 | Paradigm | Visual Output Screenshot |
 | :--- | :--- |
-| **Paradigm 1: Plain Chatbot** | ![Plain Chatbot Output](https://raw.githubusercontent.com/lokesh-r-2007/day1task/main/Output/01_plain_chatbot_output.png) |
-| **Paradigm 2: Rule-Based Workflow** | ![Rule Based Workflow Output](https://raw.githubusercontent.com/lokesh-r-2007/day1task/main/Output/02_rule_based_output.png) |
-| **Paradigm 3: AI Agent (LLM + Tools + Loop)** | ![AI Agent Output](https://raw.githubusercontent.com/lokesh-r-2007/day1task/main/Output/03_ai_agent_output.png) |
-| **Comparative Dashboard** | ![Comparative Dashboard](https://raw.githubusercontent.com/lokesh-r-2007/day1task/main/Output/04_comparative_summary.png) |
+| **Paradigm 1: Plain Chatbot** | ![Plain Chatbot Output](./Output/01_plain_chatbot_output.png) |
+| **Paradigm 2: Rule-Based Workflow** | ![Rule Based Workflow Output](./Output/02_rule_based_output.png) |
+| **Paradigm 3: AI Agent (LLM + Tools + Loop)** | ![AI Agent Output](./Output/03_ai_agent_output.png) |
+| **Comparative Dashboard** | ![Comparative Dashboard](./Output/04_comparative_summary.png) |
