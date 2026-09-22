@@ -1,0 +1,95 @@
+{
+  "store_info": {
+    "name": "TechGear Electronics",
+    "support_email": "support@techgear.example.com",
+    "currency": "USD"
+  },
+  "return_policy": {
+    "max_return_window_days": 30,
+    "restocking_fee_percentage": 10.0,
+    "vip_restocking_fee_waived": true,
+    "requires_original_packaging": true,
+    "damaged_item_full_refund_or_replacement": true
+  },
+  "customers": {
+    "CUST-101": {
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "tier": "VIP",
+      "total_orders": 14,
+      "member_since": "2023-01-15"
+    },
+    "CUST-102": {
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "tier": "Standard",
+      "total_orders": 2,
+      "member_since": "2024-05-10"
+    }
+  },
+  "orders": {
+    "ORD-9482": {
+      "order_id": "ORD-9482",
+      "customer_id": "CUST-101",
+      "customer_name": "Alice Johnson",
+      "item_id": "ITEM-501",
+      "item_name": "Ultra Wireless Noise-Canceling Headset",
+      "quantity": 1,
+      "price": 199.99,
+      "purchase_date": "2026-09-10",
+      "delivery_date": "2026-09-12",
+      "status": "Return Initiated",
+      "shipping_address": "742 Evergreen Terrace, Springfield, IL",
+      "return_requested": true,
+      "refund_amount": 199.99,
+      "return_reason": "Rule-based return pipeline trigger"
+    },
+    "ORD-7721": {
+      "order_id": "ORD-7721",
+      "customer_id": "CUST-102",
+      "customer_name": "Bob Smith",
+      "item_id": "ITEM-302",
+      "item_name": "RGB Mechanical Gaming Keyboard",
+      "quantity": 1,
+      "price": 129.5,
+      "purchase_date": "2026-09-18",
+      "delivery_date": "2026-09-21",
+      "status": "Delivered (Reported Damaged)",
+      "shipping_address": "123 Main Street, Austin, TX",
+      "return_requested": false,
+      "refund_amount": 0.0
+    },
+    "ORD-3105": {
+      "order_id": "ORD-3105",
+      "customer_id": "CUST-102",
+      "customer_name": "Bob Smith",
+      "item_id": "ITEM-108",
+      "item_name": "4K Ultra-HD Monitor 27-inch",
+      "quantity": 1,
+      "price": 349.0,
+      "purchase_date": "2026-07-01",
+      "delivery_date": "2026-07-05",
+      "status": "Delivered",
+      "shipping_address": "123 Main Street, Austin, TX",
+      "return_requested": false,
+      "refund_amount": 0.0
+    }
+  },
+  "inventory": {
+    "ITEM-501": {
+      "name": "Ultra Wireless Noise-Canceling Headset",
+      "stock": 46,
+      "unit_price": 199.99
+    },
+    "ITEM-302": {
+      "name": "RGB Mechanical Gaming Keyboard",
+      "stock": 18,
+      "unit_price": 129.5
+    },
+    "ITEM-108": {
+      "name": "4K Ultra-HD Monitor 27-inch",
+      "stock": 8,
+      "unit_price": 349.0
+    }
+  }
+}
