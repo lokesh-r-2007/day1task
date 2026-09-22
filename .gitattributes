@@ -1,0 +1,5 @@
+# Force git to treat PNG images as binary files without line-ending modifications
+*.png binary
+*.jpg binary
+*.jpeg binary
+* text=auto
